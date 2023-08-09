@@ -15,7 +15,7 @@
         <p id="subtitulo">Complete com suas informaçôes</p>
         <br>
     </div>
-    <form>
+    <form action="https://api.staticforms.xyz/submit" method="post">
         <fieldset class="grupo">
             <div class="campo">
                <label>Nome</label>
@@ -81,10 +81,14 @@
             <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
         </div>
         <fieldset>
-        <button class="botao" type="submit" onsubmit="gmail.com/andersoncassio2008@gmail.com">Concluído</button>
+        <button class="botao" type="submit" onsubmit="">Concluído</button>
         <label>Envie um projeto</label>
         <input type="file" name="arquivo" id="arquivo" class="botaoarquivo"> 
-         </fieldset>
+
+        <input type="hidden" name="accessKey" value="9757b6a8-b085-46c5-a401-702a77fad857">
+        <input type="hidden" name="redirectTo" value="./obrigado.html">
+
+        </fieldset>
     </form>
     </div>
 </body>
